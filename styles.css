@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+  ;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+.header {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+  color: #d1d5db;
+}
+
+.hero-text button {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero-image {
+  background-color: #6b7280;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 250px;
+}
+
+.info {
+  padding: 60px 80px;
+  text-align: center;
+}
+
+.info h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.info-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card .box {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+  margin: 0 auto 10px;
+}
+
+.card p {
+  font-size: 14px;
+} 
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 60px 100px;
+  text-align: center;
+}
+
+.quote-text {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+.quote-author {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.cta {
+  padding: 50px 80px;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  border-radius: 10px;
+}
+
+.cta-box button {
+  background-color: white;
+  color: #3882f6;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
